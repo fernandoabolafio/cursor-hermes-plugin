@@ -1,0 +1,21 @@
+name: cursor
+version: 1.0.0
+description: "Cursor Cloud Agents — create, list, inspect, send messages, cancel, resume, archive and delete cloud agents via the Cursor Python SDK. Requires CURSOR_API_KEY."
+author: "Fernando / Hermes"
+kind: standalone
+requires_env:
+  - CURSOR_API_KEY
+provides_tools:
+  - cursor_agent_create
+  - cursor_agent_list
+  - cursor_agent_get
+  - cursor_agent_send
+  - cursor_agent_wait
+  - cursor_agent_cancel
+  - cursor_agent_resume
+  - cursor_agent_archive
+  - cursor_agent_unarchive
+  - cursor_agent_delete
+  - cursor_agent_artifacts
+  - cursor_models_list
+  - cursor_repos_list
